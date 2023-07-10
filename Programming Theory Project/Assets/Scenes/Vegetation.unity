@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: c8bd0d2f5c8687446b57a5aec508c4c2, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -1371,6 +1371,7 @@ GameObject:
   - component: {fileID: 1855696828}
   - component: {fileID: 1855696827}
   - component: {fileID: 1855696826}
+  - component: {fileID: 1855696829}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1428,6 +1429,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1855696829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855696825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b33618c8391773443bdbe7e1afdac8ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vegetacao1Button: {fileID: 128120357}
+  vegetacao2Button: {fileID: 897755811}
+  vegetacao3Button: {fileID: 1883756018}
 --- !u!1 &1883756016
 GameObject:
   m_ObjectHideFlags: 0

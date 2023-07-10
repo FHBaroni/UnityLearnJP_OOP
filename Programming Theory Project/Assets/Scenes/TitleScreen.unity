@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 16699bc66b09df543ac84fb8e34c1a72, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -1367,7 +1367,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 0}
+  m_BackGroundColor: {r: 0.058561757, g: 0.17377618, b: 0.26415092, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1600,7 +1600,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 984830569}
-  - component: {fileID: 984830568}
+  - component: {fileID: 984830570}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1608,20 +1608,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &984830568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 984830567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d28039ec9dd2d543b64d0a02371cd1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ambientNameInput: {fileID: 974945505}
-  ambientName: 
 --- !u!4 &984830569
 Transform:
   m_ObjectHideFlags: 0
@@ -1637,6 +1623,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &984830570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984830567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b73ebbd8917423d4292ba3f46a206fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1313249099
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1974,19 +1972,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1671339901}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 984830568}
-        m_TargetAssemblyTypeName: StartGame, Assembly-CSharp
-        m_MethodName: LoadGameScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1671339901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2176,6 +2162,7 @@ GameObject:
   - component: {fileID: 1845240871}
   - component: {fileID: 1845240870}
   - component: {fileID: 1845240869}
+  - component: {fileID: 1845240872}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -2233,6 +2220,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1845240872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845240868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60633d45b23244347b155e8edff580d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambienteInput: {fileID: 974945505}
+  iniciarButton: {fileID: 1671339900}
 --- !u!1001 &2002686976
 PrefabInstance:
   m_ObjectHideFlags: 0

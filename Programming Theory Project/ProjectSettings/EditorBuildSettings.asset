@@ -11,4 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Building.unity
     guid: ca86786652c405f4e897e657d3502984
+  - enabled: 1
+    path: Assets/Scenes/Vegetation.unity
+    guid: 078f86554d88659448f4a0f0c16eed59
+  - enabled: 1
+    path: Assets/Scenes/Ambients.unity
+    guid: 3d7652c02a5e1af4fa510a32ac56f117
+  - enabled: 1
+    path: Assets/Scenes/Final1.unity
+    guid: 13ef57e5ff9de3d4ea548271b132dfd0
+  - enabled: 1
+    path: Assets/Scenes/Final2.unity
+    guid: c524866b4f604734ba40c4f0c494823b
+  - enabled: 1
+    path: Assets/Scenes/Final3.unity
+    guid: 86cd3622501e7354798760553beced29
   m_configObjects: {}
